@@ -4,8 +4,19 @@ learning. Users can create accounts and input data (notes) on whichever subject 
 the note-taking process for students or self-interested learners through a simple framework, making tracking easy!
 
 How to run instructions:
-- Open the project in an editor of your choice example; VScode.
-- Type into the terminal: "source ll_env/bin/activate", to activate the virtual environment
+- Install python and Django (https://docs.djangoproject.com/en/5.1/topics/install/)
+- Open the project in an editor of your choice example: VScode.
+
+Unix/MacOS:
+- Create a virtual environment: "python -m venv <name-of-environment>"
+- Type into the terminal: "source <name-of-environment>/bin/activate", to activate the virtual environment
+
+Windows:
+- Create a virtual environment: "py -m venv <name-of-environment>"
+- Type into the terminal: "<name-of-environment>\Scripts\activate.bat", to activate the virtual environment
+
+
+- With an active environment, type: "python manage.py migrate"
 - Then to run the server, type into the terminal: "python manage.py runserver"
-- Type into a search engine http://localhost:8000/ to use the web application
+- Paste into a search engine http://localhost:8000/ to use the web application
 - To stop running the program, Control-C and type "deactivate" in the terminal
