@@ -15,7 +15,7 @@ Windows:
 - Create a virtual environment: "py -m venv <name-of-environment>"
 - Type into the terminal: "<name-of-environment>\Scripts\activate.bat", to activate the virtual environment
 
-
+After environment setup:
 - With an active environment, type: "python manage.py migrate"
 - Then to run the server, type into the terminal: "python manage.py runserver"
 - Paste into a search engine http://localhost:8000/ to use the web application
